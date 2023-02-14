@@ -60,3 +60,31 @@ def post_sheet(id, sheet_name, credentials, df, clear):
         except Exception:
 
             return False
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
