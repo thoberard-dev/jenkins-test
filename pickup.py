@@ -13,7 +13,7 @@ from sheets import post_sheet, get_sheet
 
 # Config
 scope = ['https://spreadsheets.google.com/feeds', 'https://www.googleapis.com/auth/drive']
-creds = ServiceAccountCredentials.from_json_keyfile_name('Files/secret_create_store.json', scope)
+creds = ServiceAccountCredentials.from_json_keyfile_name('secret_create_store.json', scope)
 
 id_sheet = '1b1qK9fkheK3fidS8NQjs5pf2K0GS8DvC6dlr5pSNecU'
 
