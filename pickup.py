@@ -5,7 +5,7 @@ from datetime import datetime
 import time
 
 # Functions
-from Functions.sheets import post_sheet, get_sheet
+from jenkins-test.sheets import post_sheet, get_sheet
 
 # from Functions.admin import change_pickup, get_onelogin
 
