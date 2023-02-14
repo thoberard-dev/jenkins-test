@@ -3,9 +3,10 @@ from oauth2client.service_account import ServiceAccountCredentials
 import json
 from datetime import datetime
 import time
+from ../sheets import post_sheet, get_sheet
 
 # Functions
-from jenkins-test.sheets import post_sheet, get_sheet
+#from jenkins-test. import post_sheet, get_sheet
 
 # from Functions.admin import change_pickup, get_onelogin
 
