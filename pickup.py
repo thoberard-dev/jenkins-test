@@ -27,9 +27,9 @@ df_stores_errors = get_sheet(id_sheet, 'Store PICKUP Errors', creds)
 
 start_time = time.time()
 print(start_time)
-df_stores = df_stores.reset_index()
+#df_stores = df_stores.reset_index()
 
-for index, store in df_stores.iterrows():
+for _, store in df_stores.iterrows():
 
 #for _, store in df_stores[df_stores['STORE ADDRESS ID'] != ''].iterrows():
     print(store['STORE ADDRESS ID'])
